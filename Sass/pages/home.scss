@@ -1,0 +1,82 @@
+.home_section {
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+
+  .subtitle {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color: showcase_color(text_color);
+  }
+
+  img {
+    width: 20%;
+    cursor: pointer;
+    background-color: showcase_color(background_img_color);
+    border-radius: 50%;
+  }
+  .home_img {
+    margin-bottom: 1rem;
+  }
+  @media (max-width: 420px) {
+    .home_section {
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+    }
+    img {
+      width: 70%;
+    }
+    h1 {
+      padding-top: 1em;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      margin-left: 10px;
+    }
+    p {
+      margin-left: 15px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    img {
+      width: 40%;
+    }
+    h1 {
+      margin-left: 12px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    img {
+      width: 50%;
+    }
+    h1 {
+      margin-left: 12px;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    img {
+      width: 60%;
+    }
+    h1 {
+      margin-left: 12px;
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1080px) {
+    #home_dec {
+      padding-left: 2em;
+    }
+  }
+}
+
+/* remove the text when the navbar is active */
+.magic {
+  color: white;
+}

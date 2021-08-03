@@ -1,0 +1,26 @@
+@import "variables";
+
+/* get nav bar colors  */
+@function nav_color($color) {
+    @return map-get($nav_bar_colors , $color);
+}
+
+/* get showcase colors  */
+@function showcase_color($color) {
+    @return map-get($showcase_colors , $color);
+}
+
+/* get about colors  */
+@function about_color($color) {
+    @return map-get($about_colors , $color);
+}
+
+/* get project section colors  */
+@function project_color($color) {
+    @return map-get($project_colors , $color);
+}
+
+/* get contact me colors  */
+@function contact_color($color) {
+    @return map-get($contact_colors , $color);
+}

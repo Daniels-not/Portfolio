@@ -1,0 +1,44 @@
+$nav_bar_colors: (
+    "border_color": hsl(0, 0%, 90%),
+    "hamburger_color": hsl(0, 0%, 6%),
+    "text_color": hsl(215, 19%, 35%),
+    "link_hover_color": hsl(248, 93%, 58%),
+    "logo_color": hsl(248, 93%, 58%),
+
+    /* nav_bar_colors responsive */
+
+    "background_color": hsl(0, 0%, 100%),
+    "box_shadow_color": hsla(0, 0%, 0%, 0.05),
+);
+
+/* show case area  */
+$showcase_colors: (
+    "text_color": hsl(0, 0%, 27%),
+    "background_img_color": hsl(248, 93%, 58%),
+);
+
+/* about me colors */
+$about_colors: (
+    "links": hsl(248, 93%, 58%),
+    "links_hover": hsl(220, 74%, 30%),
+    "secondary_color": hsl(0, 0%, 27%),
+    "btn_color": hsl(248, 93%, 58%),
+    "btn_hover": hsl(220, 79%, 28%)
+);
+
+/* projects section color  */
+$project_colors: (
+    "title_color": hsl(248, 93%, 58%),
+    "bg_color" : hsl(0, 0%, 100%),
+    "skill_color": hsl(0, 0%, 47%),
+);
+
+$contact_colors: (
+    "title_color": hsl(0, 0%, 13%),
+    "secondary_text": hsl(0, 0%, 13%),
+
+    /* contact_colors inputs */
+    "input_colors": hsl(0, 0%, 13%),
+    "bg_textarea_color": hsl(0, 0%, 100%),
+    "border_color": hsl(248, 93%, 58%)
+);

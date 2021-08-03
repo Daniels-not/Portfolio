@@ -1,0 +1,43 @@
+/* base */
+@import "./base/resets";
+@import "./base/typography";
+
+/* components */
+@import "./components/navbar";
+
+/* sections  */
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/skills";
+@import "./pages/projects";
+@import "./pages/contactMe";
+
+/* utils */
+@import "./utilities/functions";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: nav_color(logo_color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: nav_color(link_hover_color);
+}

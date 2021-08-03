@@ -1,0 +1,49 @@
+.container{
+  padding-inline: 2rem;
+}
+
+.skills {
+  height: auto;
+  margin: 9rem 0 10rem 0;
+  text-align: center;
+  border-radius: 15px;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  h1{
+      font-size: 2.5rem;
+      letter-spacing: 0.5rem;
+  }
+}
+
+.skills-card {
+  margin-top: 3rem;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: 250ms transform ease-in-out;
+  width: 10rem;
+  cursor: pointer;
+
+  h4 {
+    padding-bottom: 1rem;
+    font-weight: 200;
+  }
+
+  &:hover {
+    transform: translateY(-15px);
+  }
+
+  &:active {
+    transform: translateY(5px);
+  }
+}
