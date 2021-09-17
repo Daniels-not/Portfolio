@@ -17,9 +17,11 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
 
+
 html {
   scroll-behavior: smooth;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
